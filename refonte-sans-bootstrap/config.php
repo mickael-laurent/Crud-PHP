@@ -2,7 +2,7 @@
 declare(strict_types=1);
 
 /*
- * Configuration locale : adapte ces valeurs à ton installation MySQL.
+ * Configuration locale : adapte ces valeurs à ton installation MariaDB.
  * En production, les identifiants doivent venir de variables d'environnement.
  */
 const DB_HOST = '127.0.0.1';
