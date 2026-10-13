@@ -22,6 +22,7 @@ page_header('Détail du contact');
     <div><h1><?= e($contact['firstname'] . ' ' . $contact['name']) ?></h1><p class="muted">Détail du contact</p></div>
     <a class="button" href="edit.php?id=<?= (int) $contact['id'] ?>">Modifier</a>
 </div>
+<?php if (isset($_GET['saved'])): ?><p class="alert success">Les modifications ont été enregistrées.</p><?php endif; ?>
 <section class="panel">
     <dl class="detail-grid">
         <div class="detail"><dt>Nom</dt><dd><?= e($contact['name']) ?></dd></div>
