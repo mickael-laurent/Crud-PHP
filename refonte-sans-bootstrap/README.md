@@ -14,7 +14,7 @@ Nouvelle version pédagogique du CRUD, écrite en PHP natif avec PDO et du CSS m
 
 ## Prérequis
 
-PHP 8.1 ou plus récent avec PDO MySQL, MySQL ou MariaDB, et un serveur web local (WampServer convient).
+PHP 8.1 ou plus récent avec les extensions `pdo_mysql` et `mbstring`, MySQL ou MariaDB, et un serveur web local (WampServer convient).
 
 ## Installation locale
 
